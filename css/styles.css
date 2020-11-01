@@ -1,0 +1,10 @@
+@import './partial/navigation.css';
+@import './partial/variables.css';
+@import './partial/header.css';
+@import './partial/loader.css';
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: LatoRegular;
+}
