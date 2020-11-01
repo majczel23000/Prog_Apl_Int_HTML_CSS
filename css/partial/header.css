@@ -21,6 +21,7 @@
     display: table;
 }
 .header__text h1 {
+    text-align: center;
     display: table-cell;
     vertical-align: middle;
     font-size: 50px;
@@ -52,5 +53,25 @@
         left: 0;
         position: relative;
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__text h1 {
+        font-size: 30px;
+    }
+
+    .header__text h1 span {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header__text h1 {
+        font-size: 20px;
+    }
+
+    .header__text h1 span {
+        font-size: 14px;
     }
 }
