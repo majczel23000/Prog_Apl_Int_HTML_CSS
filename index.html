@@ -9,60 +9,50 @@
     <script type="text/javascript" src="./js/script.js"></script>
   </head>
   <body>
+    <div id="home"></div>
 
-    <!-- <div class="loader__container">
+    <div class="loader__container">
       <div class="loader">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-    </div> -->
+    </div>
 
-    <section class="navigation">
+    <section class="navigation" id="home">
       <div class="nav-container">
         <div class="brand">
-          <a href="#">Michał Raźny</a>
+          <a href="#home">Michał Raźny</a>
         </div>
         <nav>
           <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
           <ul class="nav-list">
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
               <ul class="nav-dropdown">
                 <li>
-                  <a href="#">Web Design</a>
+                  <a href="#servicesWebDesign">Web Design</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#servicesWebDevelopment">Web Development</a>
                 </li>
                 <li>
-                  <a href="#">Graphic Design</a>
+                  <a href="#servicesGraphicDesign">Graphic Design</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
-              <ul class="nav-dropdown">
-                <li>
-                  <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <a href="#">Graphic Design</a>
-                </li>
-              </ul>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
               <a href="#">Contact</a>
@@ -85,53 +75,195 @@
       </div>
     </section>
 
-    <section class="about">
-      <div class="about__title">About me</div>
-      <div class="about__left">
-          <img src="./img/me.jpg" alt="Michał Raźny">
-          <div class="about__left--box">
-            <p>Michał</p>
-            <span>FRONT-END DEVELOPER</span>
+    <div class="about-wrapper">
+      <section class="about section" id="about">
+        <div class="section__title">About me</div>
+        <div class="about__left">
+            <img src="./img/me.jpg" alt="Michał Raźny">
+            <div class="about__left--box">
+              <p>Michał</p>
+              <span>FRONT-END DEVELOPER</span>
+            </div>
+            <div class="clear"></div>
+            <div class="about__left--desc">
+              My name is Michał. I am interested in front end development. I like to be up-to-date, that's why I check the news introduced into the web development world every day. I know from experience that the front-end is not as easy as it might seem and that is why while working with each project, I try to meet the expectations and create the highest quality software. Apart from job, my hobbies are cycling, exercising and DIY in the house.
+            </div>
+            <div class="about__left--skills">
+              <ul>
+                <li>Angular</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="about__right">
+          <div class="about__right--title">
+            Experience
+          </div>
+          <div class="about__right--job">
+            <p>Krakweb</p>
+            <span>The first job in the industry. It was a summer internship, during which I gained an invaluable basis of knowledge in the field of front-end development.</span>
+          </div>
+          <div class="about__right--job">
+            <p>Mt-web</p>
+            <span>Another summer internship. Here I learned some advanced Wordpress techniques. My responsibilities included maintaining and creating new Wordpress templates.</span>
+          </div>
+          <div class="about__right--job">
+            <p>Comarch</p>
+            <span>Current job. The scope of duties fully corresponds to my interests, which is why I enjoy this job. I create software mainly in Angular, additionally using my knowledge of CSS, HTML, clean code writing techniques and testing frameworks.</span>
+          </div>
+          <div class="about__right--job">
+            <p>Freelancer</p>
+            <span>I deal with the creation of systems and websites in accordance with the client's requirements. Additional, I was creating games and programs in languages: C++, Python, Java or Kotlin.</span>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </section>
+    </div>
+
+    <div class="services-wrapper">
+      <section class="section">
+        <div class="section__title">Services</div>
+        <div class="services__box" id="servicesWebDesign">
+          <div class="services__box--img">
+            <img src="./img/services_web_design.png" alt="Service 1">
+          </div>
+          <div class="services__box--desc">
+            <span>Web Design</span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eligendi aperiam reprehenderit odio dolor blanditiis est excepturi repellendus, culpa at quas sunt aliquam temporibus expedita tempore accusantium autem, enim minus eaque odit labore! Consequatur reprehenderit, doloremque aliquid ab praesentium necessitatibus eaque itaque possimus in odit ut, nihil facilis illum suscipit voluptatum delectus asperiores aperiam vero. Consectetur, saepe. Dignissimos exercitationem, magnam ut alias obcaecati iusto porro aut amet provident repudiandae perferendis.
           </div>
           <div class="clear"></div>
-          <div class="about__left--desc">
-            My name is Michał. I am interested in front end development. I like to be up-to-date, that's why I check the news introduced into the web development world every day. I know from experience that the front-end is not as easy as it might seem and that is why while working with each project, I try to meet the expectations and create the highest quality software. Apart from job, my hobbies are cycling, exercising and DIY in the house.
+        </div>
+        <div class="services__box" id="servicesWebDevelopment">
+          <div class="services__box--desc">
+            <span>Web Development</span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam eum porro sed consectetur debitis. Officia eligendi similique necessitatibus, molestias pariatur veniam vero nulla nostrum tempora! Nobis alias minima temporibus asperiores, aliquid obcaecati cum doloremque officia exercitationem enim accusantium maiores debitis! Perspiciatis sapiente necessitatibus ea fugiat atque consectetur nesciunt, vero temporibus et sequi, ratione voluptate nobis laborum.
           </div>
-          <div class="about__left--skills">
+          <div class="services__box--img">
+            <img src="./img/services_web_development.png" alt="Service2">
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="services__box" id="servicesGraphicDesign">
+          <div class="services__box--img">
+            <img src="./img/services_graphics_design.png" alt="Service 1">
+          </div>
+          <div class="services__box--desc">
+            <span>Graphic Design</span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eligendi aperiam reprehenderit odio dolor blanditiis est excepturi repellendus, culpa at quas sunt aliquam temporibus expedita tempore accusantium autem, enim minus eaque odit labore! Consequatur reprehenderit, doloremque aliquid ab praesentium necessitatibus eaque itaque possimus in odit ut, nihil facilis illum suscipit voluptatum delectus asperiores aperiam vero. Consectetur, saepe. Dignissimos exercitationem, magnam ut alias obcaecati iusto porro aut amet provident repudiandae perferendis.
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </section>
+    </div>
+
+    <div class="pricing-wrapper">
+      <section class="section" id="pricing">
+        <div class="section__title">Pricing</div>
+        <div class="pricing__box">
+          <div class="pricing">
+            <div class="pricing__title">Limited</div>
+            <div class="pricing__cost">€2</div>
+            <div class="pricing__trial">Available for a month</div>
+            <hr>
             <ul>
-              <li>Angular</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>Node.js</li>
-              <li>MongoDB</li>
+              <li><strong>8</strong>team members</li>
+              <li><strong>6</strong>team playlists</li>
+              <li><strong>Unlimited</strong> public playlists</li>
+            </ul>
+          </div>
+          <div class="pricing pricing--bordered">
+            <div class="pricing__title">Exclusive</div>
+            <div class="pricing__cost">€2</div>
+            <div class="pricing__trial">Available for a month</div>
+            <hr>
+            <ul>
+              <li><strong>8</strong>team members</li>
+              <li><strong>6</strong>team playlists</li>
+              <li><strong>Unlimited</strong> public playlists</li>
+            </ul>
+          </div>
+          <div class="pricing">
+            <div class="pricing__title">Gold</div>
+            <div class="pricing__cost">€2</div>
+            <div class="pricing__trial">Available for a month</div>
+            <hr>
+            <ul>
+              <li><strong>8</strong>team members</li>
+              <li><strong>6</strong>team playlists</li>
+              <li><strong>Unlimited</strong> public playlists</li>
             </ul>
           </div>
           <div class="clear"></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="portfolio-wrapper">
+      <section class="section" id="portfolio">
+        <div class="section__title">Portfolio</div>
+        <div class="portfolio">
+          <div class="portfolio__image" onclick="openPortfolioModal(1)">
+            <img src="https://picsum.photos/320/250" alt="">
+            <div class="portfolio__image--overlay">
+              <div class="portfolio__image--btn">Details</div>
+            </div>
+          </div>
+          <div class="portfolio__image" onclick="openPortfolioModal(2)">
+            <img src="https://picsum.photos/320/250" alt="">
+            <div class="portfolio__image--overlay">
+              <div class="portfolio__image--btn">Details</div>
+            </div>
+          </div>
+          <div class="portfolio__image" onclick="openPortfolioModal(3)">
+            <img src="https://picsum.photos/320/250" alt="">
+            <div class="portfolio__image--overlay">
+              <div class="portfolio__image--btn">Details</div>
+            </div>
+          </div>
+          <div class="portfolio__image" onclick="openPortfolioModal(4)">
+            <img src="https://picsum.photos/320/250" alt="">
+            <div class="portfolio__image--overlay">
+              <div class="portfolio__image--btn">Details</div>
+            </div>
+          </div>
+          <div class="portfolio__image" onclick="openPortfolioModal(5)">
+            <img src="https://picsum.photos/320/250" alt="">
+            <div class="portfolio__image--overlay">
+              <div class="portfolio__image--btn">Details</div>
+            </div>
+          </div>
+          <div class="portfolio__image" onclick="openPortfolioModal(6)">
+            <img src="https://picsum.photos/320/250" alt="">
+            <div class="portfolio__image--overlay">
+              <div class="portfolio__image--btn">Details</div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- PORTFOLIO MODALS -->
+    <!-- The Modal -->
+    <div id="portfolioModal1" class="modal">
+      <div class="modal__content">
+        <div class="modal__header">
+          <span class="modal__close" onclick="closePortfolioModal('portfolioModal1')">&times;</span>
+          <h2>Portfolio Item 1</h2>
+        </div>
+        <div class="modal__body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quam sapiente saepe possimus praesentium iure illo excepturi consequatur, voluptates accusantium?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus magni commodi repellendus harum perspiciatis nisi amet cum! Ipsum, in ab est vitae amet aut neque dolorum minus at consectetur? Ipsam qui, impedit, ab sequi facere rem est debitis exercitationem non sapiente magni delectus eos quasi odio perspiciatis alias. Optio!</p>
+          <img src="https://picsum.photos/320/250" alt="">
+        </div>
       </div>
-      <div class="about__right">
-        <div class="about__right--title">
-          Experience
-        </div>
-        <div class="about__right--job">
-          <p>Krakweb</p>
-          <span>The first job in the industry. It was a summer internship, during which I gained an invaluable basis of knowledge in the field of front-end development.</span>
-        </div>
-        <div class="about__right--job">
-          <p>Mt-web</p>
-          <span>Another summer internship. Here I learned some advanced Wordpress techniques. My responsibilities included maintaining and creating new Wordpress templates.</span>
-        </div>
-        <div class="about__right--job">
-          <p>Comarch</p>
-          <span>Current job. The scope of duties fully corresponds to my interests, which is why I enjoy this job. I create software mainly in Angular, additionally using my knowledge of CSS, HTML, clean code writing techniques and testing frameworks.</span>
-        </div>
-        <div class="about__right--job">
-          <p>Freelancer</p>
-          <span>I deal with the creation of systems and websites in accordance with the client's requirements. Additional, I was creating games and programs in languages: C++, Python, Java or Kotlin.</span>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </section>
+    </div>
   </body>
 </html>
