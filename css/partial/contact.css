@@ -1,0 +1,99 @@
+.contact-wrapper {
+    background: #262626;
+    width: 100%;
+}
+
+.section__title {
+    color: #f6f6f6 !important;
+}
+
+.contact__form {
+    margin: 30px 0 0 0;
+    padding-bottom: 50px;
+}
+
+.contact__50 {
+    width: 50%;
+    float: left;
+}
+
+.contact__100 {
+    width: 100%;
+}
+
+.contact__input {
+    background-color: #f6f6f6;
+    border: solid 1px #333333;
+    box-sizing: border-box;
+    margin: 0 10px 10px 10px;
+    position: relative;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.contact__input.textarea {
+    height: auto;
+}
+
+.contact__input.textarea .contact__formcontrol {
+    height: auto;
+    resize: none;
+}
+
+.contact__input label {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    display: block;
+    margin: 0;
+    font-weight: 300;
+    z-index: 1;
+    color: #333;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.contact__formcontrol {
+    background-color: transparent;
+    padding: 20px 10px 10px 25px;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    color: #333;
+    width: 100%;
+    outline: none;
+}
+
+.contact__input .contact__formcontrol:focus label {
+    top: 0;
+}
+
+.contact__submit {
+    background-color: #2581DC;
+    color: #f6f6f6;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    width: 50%;
+    padding: 10px 0;
+    transition: 0.2s all;
+    cursor: pointer;
+    outline: none;
+}
+
+.contact__submit:hover, .contact__submit:focus {
+    background-color: #25BFFF;
+}

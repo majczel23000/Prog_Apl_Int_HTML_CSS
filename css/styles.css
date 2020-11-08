@@ -7,6 +7,7 @@
 @import './partial/pricing.css';
 @import './partial/portfolio.css';
 @import './partial/modal.css';
+@import './partial/contact.css';
 
 body, html {
     margin: 0;
