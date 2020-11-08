@@ -65,6 +65,9 @@
     padding: 2px 16px;
     background-color: #2581DC;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .modal__body {
@@ -88,4 +91,18 @@
     display: block;
     padding: 20px 20px 50px 20px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 860px) {
+    .modal__header h2 {
+        font-size: 20px;
+    }
+
+    .modal__body p:first-of-type {
+        font-size: 18px;
+    }
+
+    .modal__body p:last-of-type {
+        font-size: 16px;
+    }
 }

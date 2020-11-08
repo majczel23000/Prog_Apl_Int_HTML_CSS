@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 350px;
+    min-height: 430px;
 }
 
 .pricing {
@@ -39,7 +39,7 @@
 }
 
 .pricing__cost::after {
-    content: " / month per user";
+    content: " / per app";
     font-weight: normal;
 }
 
@@ -111,7 +111,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 830px) {
     .pricing__box {
         flex-direction: column;
     }
@@ -124,5 +124,11 @@ hr {
     .pricing:hover {
         margin-top: 0px;
         transition: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pricing {
+        width: 280px;
     }
 }
