@@ -12,11 +12,13 @@
 
 .portfolio__image {
     width: 320px;
+    height: 250px;
     float: left;
     margin: 10px;
     box-sizing: border-box;
     position: relative;
     cursor: pointer;
+    background: #333;
 }
 
 .portfolio__image img {

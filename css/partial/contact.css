@@ -1,9 +1,9 @@
 .contact-wrapper {
-    background: #262626;
+    background: #555555;
     width: 100%;
 }
 
-.section__title {
+.contact-wrapper .section__title {
     color: #f6f6f6 !important;
 }
 

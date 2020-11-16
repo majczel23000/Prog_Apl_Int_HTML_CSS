@@ -53,6 +53,7 @@
 @media screen and (max-width: 600px) {
     .services__box {
         display: block;
+        padding: 20px 0;
     }
 
     .services__box--desc {

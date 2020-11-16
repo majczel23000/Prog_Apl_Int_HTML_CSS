@@ -8,6 +8,7 @@
 @import './partial/portfolio.css';
 @import './partial/modal.css';
 @import './partial/contact.css';
+@import './partial/footer.css';
 
 body, html {
     margin: 0;
@@ -32,4 +33,12 @@ body, html {
 
 .clear {
     clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .section__title {
+        font-size: 35px;
+        padding: 20px 0 5px 0;
+        margin-bottom: 15px;
+    }
 }
