@@ -56,7 +56,7 @@
               <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -180,7 +180,7 @@
             </ul>
           </div>
           <div class="pricing pricing--bordered">
-            <div class="pricing__title">Mobile App</div>
+            <div class="pricing__title">Mobile</div>
             <div class="pricing__cost">from €250</div>
             <div class="pricing__trial">Get now!</div>
             <hr>
@@ -212,37 +212,43 @@
       <section class="section" id="portfolio">
         <div class="section__title">Portfolio</div>
         <div class="portfolio">
-          <div class="portfolio__image" onclick="openPortfolioModal(1)">
+          <div class="portfolio__filters">
+            <div onclick="portfolioFilter('all')">All</div>
+            <div onclick="portfolioFilter('css')">CSS</div>
+            <div onclick="portfolioFilter('html')">HTML</div>
+            <div onclick="portfolioFilter('angular')">Angular</div>
+          </div>
+          <div data-cat="css" class="portfolio__image" onclick="openPortfolioModal(1)">
             <img src="https://picsum.photos/320/250" alt="">
             <div class="portfolio__image--overlay">
               <div class="portfolio__image--btn">Details</div>
             </div>
           </div>
-          <div class="portfolio__image" onclick="openPortfolioModal(2)">
+          <div data-cat="css" class="portfolio__image" onclick="openPortfolioModal(2)">
             <img src="https://picsum.photos/320/250" alt="">
             <div class="portfolio__image--overlay">
               <div class="portfolio__image--btn">Details</div>
             </div>
           </div>
-          <div class="portfolio__image" onclick="openPortfolioModal(3)">
+          <div data-cat="angular" class="portfolio__image" onclick="openPortfolioModal(3)">
             <img src="https://picsum.photos/320/250" alt="">
             <div class="portfolio__image--overlay">
               <div class="portfolio__image--btn">Details</div>
             </div>
           </div>
-          <div class="portfolio__image" onclick="openPortfolioModal(4)">
+          <div data-cat="html" class="portfolio__image" onclick="openPortfolioModal(4)">
             <img src="https://picsum.photos/320/250" alt="">
             <div class="portfolio__image--overlay">
               <div class="portfolio__image--btn">Details</div>
             </div>
           </div>
-          <div class="portfolio__image" onclick="openPortfolioModal(5)">
+          <div data-cat="html" class="portfolio__image" onclick="openPortfolioModal(5)">
             <img src="https://picsum.photos/320/250" alt="">
             <div class="portfolio__image--overlay">
               <div class="portfolio__image--btn">Details</div>
             </div>
           </div>
-          <div class="portfolio__image" onclick="openPortfolioModal(6)">
+          <div data-cat="html" class="portfolio__image" onclick="openPortfolioModal(6)">
             <img src="https://picsum.photos/320/250" alt="">
             <div class="portfolio__image--overlay">
               <div class="portfolio__image--btn">Details</div>
@@ -255,7 +261,7 @@
 
     <div class="contact-wrapper">
       <section class="section" id="contact">
-        <div class="section__title">Contact</div>
+        <div class="section__title">Contact with me</div>
         <form action="" class="contact__form">
           <div class="contact__50">
             <div class="contact__input">

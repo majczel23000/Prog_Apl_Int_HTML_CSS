@@ -53,5 +53,20 @@
     background-color: #2581DC;
     color: #f6f6f6;
     font-size: 16px;
-    padding: 16px 32px;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+.portfolio__filters {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.portfolio__filters div {
+    padding: 5px 20px;
+    background: #2581dc;
+    margin: 0 10px;
+    color: #f6f6f6;
 }

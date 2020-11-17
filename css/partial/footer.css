@@ -44,3 +44,9 @@
 .footer__column--text a:hover {
     color: #2581dc;
 }
+
+@media screen and (max-width: 600px) {
+    .footer__column {
+        width: 100% !important;
+    }
+}

@@ -52,7 +52,7 @@ $(document).ready(() => {
         if ($(this).val().length == 0) {
             $(this).parent('.contact__input').removeClass('focus');
             $(this).parent().find('label').animate({
-                'top': '20px',
+                'top': '18px',
                 'fontSize': '18px'
             }, 300);
         }
@@ -73,4 +73,20 @@ function openPortfolioModal(number) {
 function closePortfolioModal(modalID) {
     const modal = document.getElementById(modalID);
     if (modal) modal.style.display = "none";
+}
+
+// Portfolio filters 
+function portfolioFilter(category) {
+    let matches = [];
+    document.querySelectorAll(".portfolio__image").forEach(element => {
+        element.style.display = 'none';
+    });
+    if (category === 'all') {
+        matches = document.querySelectorAll("div[data-cat]");
+    } else {
+        matches = document.querySelectorAll("div[data-cat='" + category + "']");
+    }
+    matches.forEach(match => {
+        match.style.display = 'block';
+    })
 }

@@ -45,7 +45,7 @@
 .contact__input label {
     position: absolute;
     left: 25px;
-    top: 20px;
+    top: 18px;
     display: block;
     margin: 0;
     font-weight: 300;
@@ -68,7 +68,7 @@
     height: auto;
     position: relative;
     z-index: 2;
-    font-size: 18px;
+    font-size: 14px;
     color: #333;
     width: 100%;
     outline: none;
@@ -79,7 +79,7 @@
 }
 
 .contact__submit {
-    background-color: #2581DC;
+    background-color: #333;
     color: #f6f6f6;
     font-size: 22px;
     text-align: center;
@@ -87,7 +87,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     border: none;
-    width: 50%;
+    width: 200px;
     padding: 10px 0;
     transition: 0.2s all;
     cursor: pointer;

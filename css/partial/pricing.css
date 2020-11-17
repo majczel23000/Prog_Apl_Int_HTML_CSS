@@ -14,22 +14,22 @@
     padding: 24px;
     text-align: center;
     float: left;
-    -webkit-transition: margin-top .5s linear;
-    transition: margin-top .5s linear;
+    -webkit-transition: margin-top .1s linear;
+    transition: margin-top .1s linear;
     position: relative;
     margin: 10px;
 }
 
 .pricing:hover {
-    margin-top: -10px;
-    -webkit-transition: margin-top .3s linear;
-    transition: margin-top .3s linear;
+    margin-top: -2px;
+    -webkit-transition: margin-top .1s linear;
+    transition: margin-top .1s linear;
 }
 
 .pricing__title {
     color: #565656;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: -5px;
 }
 
