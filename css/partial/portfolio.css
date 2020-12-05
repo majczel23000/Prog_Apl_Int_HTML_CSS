@@ -62,11 +62,13 @@
     display: flex;
     margin-bottom: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .portfolio__filters div {
     padding: 5px 20px;
     background: #2581dc;
-    margin: 0 10px;
+    margin: 10px 10px 0 10px;
     color: #f6f6f6;
+    cursor: pointer;
 }

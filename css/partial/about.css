@@ -66,7 +66,6 @@
 .about__left--skills ul li:hover {
     cursor: pointer;
     background: var(--link-hover-color);
-
 }
 
 .about__right {

@@ -7,7 +7,7 @@ $(document).ready(() => {
         }, 500);
     });
 
-    // Loader on page
+    // Loader visible when page is not fully loaded
     setTimeout(() => {
         $('.loader__container').addClass('loader-fade');
     }, 500);
@@ -15,7 +15,7 @@ $(document).ready(() => {
         $('.loader__container').css('display', 'none');
     }, 1500);
 
-    // Navigation
+    // Navigation functionality
     $('nav ul li a:not(:only-child)').click(function(e) {
         $(this).siblings('.nav-dropdown').toggle();
         $('.nav-dropdown').not($(this).siblings()).hide();
@@ -33,7 +33,7 @@ $(document).ready(() => {
 
     // Contact form labels animations
     $('.contact__form').find('.contact__formcontrol').each(function() {
-        var targetItem = $(this).parent();
+        const targetItem = $(this).parent();
         if ($(this).val()) {
             $(targetItem).find('label').css({
                 'top': '5px',
@@ -75,7 +75,7 @@ function closePortfolioModal(modalID) {
     if (modal) modal.style.display = "none";
 }
 
-// Portfolio filters 
+// Portfolio filtering
 function portfolioFilter(category) {
     let matches = [];
     document.querySelectorAll(".portfolio__image").forEach(element => {
